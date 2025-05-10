@@ -1,0 +1,54 @@
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  background-color: hsl(216, 21%, 86%);
+  margin: 10px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: hsl(216, 21%, 80%);
+}
+
+.ccard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.country-info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  width: 90%;
+}
+
+.country-info div {
+  margin-left: 5px;
+}
+
+.current-country-time {
+  padding-top: 50px;
+  font-size: 1.7rem;
+  color: hsl(0, 0%, 50%);
+}
+
+
+@media (max-width: 690px) {
+  .card {
+    width: 150px;
+    height: 100px;
+  }
+}

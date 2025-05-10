@@ -1,0 +1,36 @@
+.flex-card {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 0 50px;
+}
+.display-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 1100px) {
+  .display-card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .display-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 690px) {
+  .display-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .display-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
