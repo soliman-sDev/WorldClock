@@ -1,13 +1,7 @@
-:root{
-  --Primary: #E4EBF5;
-  --Secondary: #D4DAE3;
+:root {
+  --Primary: #e4ebf5;
+  --Secondary: #d4dae3;
   --Tertiary: #000000;
-/*
-Dark
-Primary: #000000;
-Secondary: #D0D0D0;
-Tertiary: #FFFFFF;
-*/
 }
 
 .navbar {
@@ -26,6 +20,7 @@ Tertiary: #FFFFFF;
   height: 60px;
   padding: 0 20px;
   position: fixed;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .icon-container {

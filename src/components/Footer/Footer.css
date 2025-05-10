@@ -1,0 +1,45 @@
+:root {
+  --Primary: #e4ebf5;
+  --Secondary: #d4dae3;
+  --Tertiary: #000000;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: var(--Secondary);
+  height: 45px;
+  margin-top: 15%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-copyright {
+  margin-right: 3px;
+}
+
+.social a {
+  color: black;
+  margin-right: 10px;
+}
