@@ -21,6 +21,17 @@ function Navbar() {
           </h1>
         </div>
         <div className="icon-container">
+          <div className="owner">
+            <a style={ { textDecoration: "none"}} href="https://soliman.vercel.app/" target="_blank">
+            <span 
+              className="material-icon material-icons"
+              style={{
+                  color: darkMode ? "#fff" : "#000",
+                  transition: "color 0.3s ease-in-out",
+                }}>account_circle</span>
+            </a>
+            
+          </div>
           <div className="repo">
             <span>
               <a href="https://github.com/soliman-sDev/WorldClock" target="_blank">

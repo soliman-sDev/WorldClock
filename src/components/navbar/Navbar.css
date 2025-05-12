@@ -35,9 +35,14 @@
 }
 
 .material-icons {
+  display: flex;
   font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 25px;
   cursor: pointer;
+}
+
+.material-icon {
+  font-size: 28px;
 }
