@@ -23,7 +23,7 @@ function Navbar() {
         <div className="icon-container">
           <div className="repo">
             <span>
-              <a href="https://github.com/soliman-sDev" target="_blank">
+              <a href="https://github.com/soliman-sDev/WorldClock" target="_blank">
                 <i
                   className="fa-brands fa-github fa-xl"
                   style={{

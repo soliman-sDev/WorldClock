@@ -68,16 +68,12 @@ function Mcard() {
           </h1>
         </div>
         <div className="clock-info">
-          <div className="flag-code">
-            <div className="flag">
-              <img
-                style={{ width: "32px", height: "32px", borderRadius: "50px" }}
-                src={`/Flags/${country.code?.toLowerCase()}.svg`}
-              ></img>
-            </div>
-            <div className="country-code">
-              <h4></h4>
-            </div>
+          <div className="flag">
+            <img
+              className="flag-img"
+              style={{ width: "32px", height: "32px", borderRadius: "50px" }}
+              src={`/Flags/${country.code?.toLowerCase()}.svg`}
+            ></img>
           </div>
           <div className="country-name">
             <h4

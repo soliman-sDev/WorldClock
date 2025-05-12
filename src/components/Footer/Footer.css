@@ -11,7 +11,7 @@
   width: 100%;
   background-color: var(--Secondary);
   height: 45px;
-  margin-top: 15%;
+  margin-top: calc(73vh - 45px - 60px);
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -43,3 +43,6 @@
   color: black;
   margin-right: 10px;
 }
+
+
+
