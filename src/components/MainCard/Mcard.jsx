@@ -48,7 +48,7 @@ function Mcard() {
     let dayName = time.dayofweekName;
 
     if (day == null || month == null || year == null) {
-      return `6 oct 2025`;
+      return `Monday, May 12 2025`;
     }
     return `${dayName}, ${month} ${day} ${year}`;
   }

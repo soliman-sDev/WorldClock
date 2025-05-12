@@ -6,6 +6,7 @@ function Card({ zones }) {
   const { country, setCountry } = useContext(CountryContext);
 
   return (
+    <a href="#">
     <div
       className="card"
       style={{ backgroundColor: darkMode ? "#0D0D0D" : "#D4DAE3" }}
@@ -20,8 +21,10 @@ function Card({ zones }) {
           src={`/Flags/${zones.code.toLowerCase()}.svg`}
         ></img>
         <h4 style={{ color: "gray" }}>{zones.code}</h4>
+        
       </div>
     </div>
+    </a>
   );
 }
 export default Card;
