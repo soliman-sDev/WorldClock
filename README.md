@@ -1,6 +1,6 @@
 <h2 align="center">
    World Clock<br/>
-   <a href="https://soliman.vercel.app/" target="_blank">WorldClock.vercel.app</a>
+   <a href="https://global-time.vercel.app/" target="_blank">global-time.vercel.app</a>
  </h2>
 
 # Technologies Used
